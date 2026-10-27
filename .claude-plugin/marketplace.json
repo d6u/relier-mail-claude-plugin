@@ -1,0 +1,11 @@
+{
+  "name": "relier-mail",
+  "owner": { "name": "Relier" },
+  "plugins": [
+    {
+      "name": "relier-mail",
+      "source": "./plugins/relier-mail",
+      "description": "Read your Relier Mail projects and email from Claude."
+    }
+  ]
+}
