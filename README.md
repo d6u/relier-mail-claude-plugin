@@ -20,10 +20,11 @@ Then run `/mcp`, select `relier-mail`, and authenticate in the browser.
 
 To install the plugin, which adds a skill that guides Claude through the tools:
 
-```sh
-claude plugin marketplace add d6u/relier-mail-claude-plugin
-claude plugin install relier-mail
+```text
+/plugin install relier-mail --marketplace d6u/relier-mail-claude-plugin
 ```
+
+This works in one step on Claude Code 2.1.275 or later. On an older version, run `claude plugin marketplace add d6u/relier-mail-claude-plugin`, then `claude plugin install relier-mail`.
 
 ## What Claude can do
 

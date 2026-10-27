@@ -4,9 +4,8 @@ This plugin connects Claude Code to Relier Mail. Claude can then read your Relie
 
 ## Install
 
-1. Add the marketplace: `claude plugin marketplace add d6u/relier-mail-claude-plugin`
-2. Install the plugin: `claude plugin install relier-mail`
-3. Run `/mcp` in Claude Code and select the authenticate option for `relier-mail`.
+1. In Claude Code, run `/plugin install relier-mail --marketplace d6u/relier-mail-claude-plugin`. This works in one step on Claude Code 2.1.275 or later. On an older version, run `claude plugin marketplace add d6u/relier-mail-claude-plugin`, then `claude plugin install relier-mail`.
+2. Run `/mcp` in Claude Code and select the authenticate option for `relier-mail`.
 
 Sign-in uses OAuth in your browser. The plugin stores no password and no secret.
 

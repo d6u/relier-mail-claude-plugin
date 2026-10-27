@@ -1,10 +1,14 @@
 {
   "name": "relier-mail",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Read your Relier Mail projects and email from Claude.",
   "author": { "name": "Relier" },
   "homepage": "https://relier.ai",
   "license": "MIT",
+  "icon": "./icon.png",
+  "documentationUrl": "https://github.com/d6u/relier-mail-claude-plugin#readme",
+  "supportUrl": "https://relier.ai",
+  "privacyPolicyUrl": "https://relier.ai/privacy",
   "mcpServers": {
     "relier-mail": { "type": "http", "url": "https://mail-api.relier.ai/mcp" }
   }
